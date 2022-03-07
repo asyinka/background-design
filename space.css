@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('./fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinslight';
+    src: url('./fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    background: url(../resoluton/image/space.jpg);
+    padding-top: 150px;
+    text-align: center;
+}
+.heading {
+    font-family: 'Poppinsblack', sans-serif;
+    text-shadow: 5px 3px black;
+    color: aliceblue;
+    word-spacing: 15px; 
+    text-align: center;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.note {
+    font-family: 'poppinslight', sans-serif;
+    color: white;
+    background-color: hsl(0, 0%, 0%, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 320px) 
+{.container {background: url(./image/space_v5akvl/320px.jpg);}  
+}
+@media screen and (max-width: 853px) 
+{.container {background: url(./image/space_v5akvl/853px.jpg);}  
+}
+@media screen and (max-width: 1228px)
+{.container {background: url(./image/space_v5akvl/1228px.jpg);}
+}
+@media screen and (max-width: 1440px) 
+{.container {background: url(./image/space_v5akvl/1440px.jpg);}
+}
