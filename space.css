@@ -19,9 +19,13 @@
 }
 .container {
     height: 100vh;
-    background: url(../resoluton/image/space.jpg);
-    padding-top: 150px;
-    text-align: center;
+    background: url(./image/space_v5akvl/320px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .heading {
     font-family: 'Poppinsblack', sans-serif;
@@ -29,12 +33,6 @@
     color: aliceblue;
     word-spacing: 15px; 
     text-align: center;
-}
-.head {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin-top: 150px;
     margin-bottom: 50px;
 }
 .note {
@@ -44,15 +42,27 @@
     padding: 10px;
     text-align: center;
 }
-@media screen and (max-width: 320px) 
-{.container {background: url(./image/space_v5akvl/320px.jpg);}  
+
+@media screen and (min-width: 321px) 
+{ 
+    .container {
+        background: url(./image/space_v5akvl/853px.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
 }
-@media screen and (max-width: 853px) 
-{.container {background: url(./image/space_v5akvl/853px.jpg);}  
+ @media screen and (min-width: 854px)
+{
+    .container {
+        background: url(./image/space_v5akvl/1228px.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
-@media screen and (max-width: 1228px)
-{.container {background: url(./image/space_v5akvl/1228px.jpg);}
-}
-@media screen and (max-width: 1440px) 
-{.container {background: url(./image/space_v5akvl/1440px.jpg);}
-}
+@media screen and (min-width: 1229px) 
+{
+    .container {
+        background: url(./image/space_v5akvl/1440px.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+} 
